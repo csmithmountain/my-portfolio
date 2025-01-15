@@ -5,6 +5,7 @@ import CodePortfolio from './pages/CodePortfolio';
 import ArtPortfolio from './pages/ArtPortfolio';
 import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path='/contact' element={<Contact />}></Route>
         </Routes>
       </main>
+      <Footer />
     </div>
   )
 }
