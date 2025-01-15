@@ -1,8 +1,12 @@
+import '../styles/Footer.css'
+
 function Footer() {
     return (
         <>
-            <div>
-                <p>C. Smithmountain</p>
+            <div className="footer-container">
+                <div>
+                    <p>C. Smithmountain</p>
+                </div>
             </div>
         </>
     )
